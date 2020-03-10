@@ -1,0 +1,37 @@
+{
+  "generator-phovea": {
+    "type": "app",
+    "app": "datavisyn_qs",
+    "clientOnly": false,
+    "entries": {
+      "app": "./src/index.ts"
+    },
+    "libraries": [
+      "d3"
+    ],
+    "modules": [
+      "phovea_core",
+      "phovea_ui"
+    ],
+    "libraryAliases": {
+      "d3": "d3/d3"
+    },
+    "libraryExternals": [
+      "d3",
+      "jquery",
+      "font-awesome"
+    ],
+    "ignores": [],
+    "extensions": [],
+    "name": "datavisyn_qs",
+    "author": "Cian Wilson",
+    "today": "Tue, 10 Mar 2020 19:11:35 GMT",
+    "githubAccount": "cianwilson",
+    "promptValues": {
+      "authorName": "Cian Wilson",
+      "authorEmail": "cwilson@carnegiescience.edu",
+      "authorUrl": "",
+      "githubAccount": "cianwilson"
+    }
+  }
+}
